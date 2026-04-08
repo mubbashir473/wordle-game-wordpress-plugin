@@ -1,0 +1,53 @@
+#word-game {
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.active {
+    border-color: blue;
+}
+
+.green {
+    background: green;
+    color: #fff;
+}
+
+.yellow {
+    background: orange;
+    color: #fff;
+}
+
+.grey {
+    background: grey;
+    color: #fff;
+}
+
+.wg-success {
+    color: green;
+}
+
+.wg-error {
+    color: red;
+}
+
+#wg-restart {
+    margin-top: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
